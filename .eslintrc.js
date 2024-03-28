@@ -24,5 +24,8 @@ module.exports = {
 	rules: {
 		indent: ['error', 'tab'],
 		'no-tabs': ['error', { allowIndentationTabs: true }],
+		'import/no-extraneous-dependencies': ['error', {
+			devDependencies: true, optionalDependencies: true, peerDependencies: true, dependencies: true,
+		}],
 	},
 };
