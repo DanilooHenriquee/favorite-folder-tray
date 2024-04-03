@@ -4,11 +4,4 @@
 
 > Melhoria
 
-- Implantar as funções do windows também
-
-- Na pasta principal, por uma estrela.
-- Nas subpastas, por:
-. Open folder (pastinha)
-. Open in code (vscode icon)
-. Open in terminal (terminal icon)
-. Remove folder (lixeirinha)
+- Colocar os icones na pasta dist, para quando instalar ficar com os icones.
