@@ -22,7 +22,7 @@ function render(tray = mainTray) {
     const openFolder = (folder) => {
         const command = {
             linux: "xdg-open",
-            win: "explorer",
+            win32: "explorer",
             darwin: "open",
         };
 
@@ -36,7 +36,7 @@ function render(tray = mainTray) {
     const openInTerminal = (folder) => {
         const command = {
             linux: `gnome-terminal --working-directory="${folder.path}"`,
-            win: `start cmd /K cd "${folder.path}"`,
+            win32: `start cmd /K cd "${folder.path}"`,
             darwin: `open -a Terminal "${folder.path}"`,
         };
 
