@@ -33,9 +33,7 @@
       "category": "Utility",
       "icon": "icon.png",
       "target": [
-        "deb",
-        "snap",
-        "rpm"
+        "deb"
       ]
     }
   }
